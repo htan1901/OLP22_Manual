@@ -93,3 +93,58 @@ docker version
 ```
 
 ![Kiểm tra cấu hình](res/pic_docker_version.png 'Kiểm tra cấu hình')
+
+### **Thiết lập môi trường Ngnix, PHP và MariaDB**
+
+Đầu tiên, ta cần đi đến trang Docker Hub official build của Nginx <https://hub.docker.com/_/nginx>, chọn latest version của Nginx. Sau đó gõ lệnh sau để tiến hành pull về:
+
+```bash
+docker pull nginx
+```
+
+![Thiết lập môi trường Ngnix](res/pic_docker_ngnix.png 'Thiết lập môi trường Ngnix')
+
+Sau đó ta cần đi đến trang Docker Hub official build của PHP <https://hub.docker.com/_/php> chọn latest version của PHP. Sau đó gõ lệnh sau để tiến hành pull về:
+
+```bash
+docker pull php
+```
+
+![Thiết lập môi trường php](res/pic_docker_php.png 'Thiết lập môi trường php')
+
+Sau đó ta cần đi đến trang Docker Hub official build của MariaDB <https://hub.docker.com/_/php> chọn latest version của MariaDB. Sau đó gõ lệnh sau để tiến hành pull về:
+
+```bash
+docker pull mariadb
+```
+
+![Thiết lập môi trường mariadb](res/pic_docker_mariadb.png 'Thiết lập môi trường mariadb')
+
+### **Cài đặt NeoVim và AstroVim:**
+
+Đầu tiên, ta cần đi đến trang Github của Neovim tải để Neovim 0.8.0 [tại đây](https://github.com/neovim/neovim/releases/download/v0.8.0/nvim-linux64.deb)
+
+Nhấn chuột phải vào cài đặt và chọn Open with Other Application:
+
+![Thiết lập neovim](res/pic_neovim_open.png 'Thiết lập neovim')
+
+Chọn **Software Install** sau đó ấn **Select**
+
+![Thiết lập neovim](res/pic_neovim_install1.png 'Thiết lập neovim')
+
+Sau đó cài đặt NeoVim:
+
+![Thiết lập neovim](res/pic_neovim_install2.png 'Thiết lập neovim')
+
+Cài đặt AstroVim:
+
+```bash
+git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+nvim +PackerSync
+```
+
+![Thiết lập neovim](res/pic_astro_vim.png 'Thiết lập neovim')
+
+### **Tải NukeViet CMS**
+
+Tải NukeViet CMS [tại đây](https://github.com/nukeviet/nukeviet/releases/download/4.5.02/nukeviet4.5.02setup.zip)
