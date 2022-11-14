@@ -99,7 +99,7 @@ docker version
 Đầu tiên, ta cần đi đến trang Docker Hub official build của Nginx <https://hub.docker.com/_/nginx>, chọn latest version của Nginx. Sau đó gõ lệnh sau để tiến hành pull về:
 
 ```bash
-docker pull nginx
+sudo docker pull nginx
 ```
 
 ![Thiết lập môi trường Ngnix](res/pic_docker_ngnix.png 'Thiết lập môi trường Ngnix')
@@ -107,7 +107,7 @@ docker pull nginx
 Sau đó ta cần đi đến trang Docker Hub official build của PHP <https://hub.docker.com/_/php> chọn latest version của PHP. Sau đó gõ lệnh sau để tiến hành pull về:
 
 ```bash
-docker pull php
+sudo docker pull php
 ```
 
 ![Thiết lập môi trường php](res/pic_docker_php.png 'Thiết lập môi trường php')
@@ -115,7 +115,7 @@ docker pull php
 Sau đó ta cần đi đến trang Docker Hub official build của MariaDB <https://hub.docker.com/_/php> chọn latest version của MariaDB. Sau đó gõ lệnh sau để tiến hành pull về:
 
 ```bash
-docker pull mariadb
+sudo docker pull mariadb
 ```
 
 ![Thiết lập môi trường mariadb](res/pic_docker_mariadb.png 'Thiết lập môi trường mariadb')
